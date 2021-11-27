@@ -54,14 +54,14 @@
                 </table>
             </div>
             <!-- Hemisphere Pictures and Titles -->
-            <div class='col-xs-12.col-lg-8'></div>
+            <div class='col-xs-6.col-md-4'></div>
                 <div class="row" id="mars-hemispheres">
                     <div class="container">
                         <h2 class="text-center">Hemispheres</h2>
                     </div>
 
                     {% for hemisphere in mars.Mars_hemispheres %}
-                    <div class="col-xs-12.col-lg-8">
+                    <div class="col-xs-6.col-md-4">
                         <div class="thumbnail">
                             <img src="{{hemisphere.img_url | default('static/images/error.png',true)}}" alt="...">
                             <div class="caption">
